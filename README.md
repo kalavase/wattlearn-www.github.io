@@ -26,8 +26,7 @@ Once _config.yml is updated, you must rebuild the site
 ```make restart``` and checkin the changes to the repo.
 
 To see this website in action:
-# TODO: check repo name
-https://wlwww.github.io
+https://wattlearn-www.github.io
 
 # Jekyll Notes
 
@@ -53,3 +52,9 @@ Images are in '/img/team/'
 
 View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
 For more details, read [documentation](http://jekyllrb.com/)
+
+## Font & Colors
+
+Primary/Secondary sets in '_data/template.yml'
+
+For specific div, modify appropriate files in '_include/css/'

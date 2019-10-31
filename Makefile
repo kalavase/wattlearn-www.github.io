@@ -14,7 +14,6 @@ build :
 
 restart : 
 	-@docker stop $(NAME)
-	-@docker rm $(NAME)
 	-@docker run --name $(NAME) -p $(HOST_PORT):$(DOCK_PORT) --rm -t -v "$(CURDIR)":/$(NAME) $(NAME) /src/jekyll/run
 
 run start : 

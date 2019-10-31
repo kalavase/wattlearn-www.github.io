@@ -1,64 +1,45 @@
-url: https://y7kim.github.io
+url: https://wattlearn-www.github.io
 #baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
+title: Watt-Learn Homepage
+email: info@wattlearn.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Matineh Eybpoosh, Ph.D.
   pic: 1
-  position: Lead Designer
+  position: CEO, Co-founder
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/matineh-eybpoosh-647b5134
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Puneeth Kalavase, Ph.D.
+  pic: 2
+  position: Lead Data Scientist
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/puneeth-kalavase-0a378532
+
+- name: Bo Olsen
+  pic: 3
+  position: Programmer
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/company/watt-learn
+  - title: stack-exchange
+    url: https://math.stackexchange.com/questions/tagged/linear-programming
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/watt-learn
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 1 Superman street
+  - line: Palo Alto, California 92037, USA
 
 # Build settings
 markdown: kramdown

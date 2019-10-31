@@ -11,5 +11,6 @@ color:
 font:
   #primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   #secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
-  primary: 'Comfortaa, "Helvetica Neue",Helvetica,Arial,sans-serif'
-  secondary: '"Times New Roman", "Helvetica Neue", Helvetica,Arial,sans-serif'
+  #primary: '"Century Gothic", "Helvetica Neue",Helvetica,Arial,sans-serif'
+  primary: '"Helvetica Neue",Helvetica,Arial,sans-serif'
+  secondary: '"Helvetica Neue","Times New Roman",Helvetica,Arial,sans-serif'
