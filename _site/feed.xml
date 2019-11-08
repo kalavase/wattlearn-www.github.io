@@ -5,85 +5,33 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://wattlearn-www.github.io/</link>
     <atom:link href="https://wattlearn-www.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 31 Oct 2019 12:04:49 -0500</pubDate>
-    <lastBuildDate>Thu, 31 Oct 2019 12:04:49 -0500</lastBuildDate>
+    <pubDate>Thu, 07 Nov 2019 21:18:36 -0600</pubDate>
+    <lastBuildDate>Thu, 07 Nov 2019 21:18:36 -0600</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>Energy Optimization Engineer</title>
+        <title>Data Scientist</title>
         <description>
 </description>
         <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
-        <link>https://wattlearn-www.github.io/web%20development/2019/10/01/project-1/</link>
-        <guid isPermaLink="true">https://wattlearn-www.github.io/web%20development/2019/10/01/project-1/</guid>
+        <link>https://wattlearn-www.github.io/data%20science/2019/10/01/job-data-1/</link>
+        <guid isPermaLink="true">https://wattlearn-www.github.io/data%20science/2019/10/01/job-data-1/</guid>
         
         
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Escape</title>
-        <description>
-</description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 -0500</pubDate>
-        <link>https://wattlearn-www.github.io/web%20development/2014/07/17/project-2/</link>
-        <guid isPermaLink="true">https://wattlearn-www.github.io/web%20development/2014/07/17/project-2/</guid>
-        
-        
-        <category>Web Development</category>
+        <category>Data Science</category>
         
       </item>
     
       <item>
-        <title>Golden</title>
+        <title>Developer</title>
         <description>
 </description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 -0500</pubDate>
-        <link>https://wattlearn-www.github.io/web%20development/2014/07/16/project-3/</link>
-        <guid isPermaLink="true">https://wattlearn-www.github.io/web%20development/2014/07/16/project-3/</guid>
+        <pubDate>Fri, 01 Oct 2010 00:00:00 -0500</pubDate>
+        <link>https://wattlearn-www.github.io/full-stack/2010/10/01/job-dev-2/</link>
+        <guid isPermaLink="true">https://wattlearn-www.github.io/full-stack/2010/10/01/job-dev-2/</guid>
         
         
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Treehouse</title>
-        <description>
-</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 -0500</pubDate>
-        <link>https://wattlearn-www.github.io/web%20development/2014/07/15/project-4/</link>
-        <guid isPermaLink="true">https://wattlearn-www.github.io/web%20development/2014/07/15/project-4/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Round Icons</title>
-        <description>
-</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 -0500</pubDate>
-        <link>https://wattlearn-www.github.io/web%20development/2014/07/15/project-6/</link>
-        <guid isPermaLink="true">https://wattlearn-www.github.io/web%20development/2014/07/15/project-6/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Startup Framework</title>
-        <description>
-</description>
-        <pubDate>Mon, 14 Jul 2014 00:00:00 -0500</pubDate>
-        <link>https://wattlearn-www.github.io/web%20development/2014/07/14/project-5/</link>
-        <guid isPermaLink="true">https://wattlearn-www.github.io/web%20development/2014/07/14/project-5/</guid>
-        
-        
-        <category>Web Development</category>
+        <category>full-stack</category>
         
       </item>
     

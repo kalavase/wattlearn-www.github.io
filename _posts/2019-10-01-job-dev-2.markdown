@@ -1,0 +1,35 @@
+---
+title: Developer
+subtitle: Full-Stack
+layout: default
+modal-id: 2
+date: 2010-10-01
+img: programmer.jpg
+thumbnail: programmer_thumbnail.jpg
+alt: image-alt
+project-date: Now
+
+general-reqs: "An effective and motivated team player – We work as a team and grow as a team.  
+<br/>Self-driven, independent, and critical thinkers – There will be no daily todo list in this job. 
+<br/>Strong communication skills.  Leadership and project management experience is a strong plus."
+
+experience: "• Demonstrated hands-on 4+ years of experience in similar roles, developing production-level backend infrastructure Familiar with all layers of computer software development, and ability to turn a concept into a finished scalable product.
+<br/>• Must have experience with deploying, monitoring, and building robust fault tolerant microservice architectures in AWS (familiarity with other cloud offerings is a plus).
+<br/>• Demonstrated ability to design and develop high quality, highly scalable code with a focus on backend development, involving high data volumes and transaction rates with asynchronous workloads.
+<br/>• Past experience with setting up CI/CD processes (e.g., Jenkins, Travis, CircleCi), and collaborative working through Git, pull-requests, version controls, etc.
+<br/>• Experience with time series data, and databases suited for this type of data is a must (e.g., Cassandra, InfluxDB, Pi).
+<br/>• Strong experience in various databases / database technologies (SQL/NoSQL).
+<br/>• Python proficiency is a Must.
+<br/>• Strong proficiency in other languages (Python, C++, Java, SQL/NoSQL).
+<br/>• Familiarity with front-end web tier is a strong plus (e.g., JavaScript, AJAX, HTML, CSS, and cross browser development, specially modern frameworks such as React, Angular) Experience building secure software and an understanding of security techniques and algorithms.
+<br/>• Experience in designing and developing REST and/or SOAP based APIs.
+<br/>• Familiarity with communication protocols is a strong plus (TCP/IP, sockets).
+<br/>• Systems Software experience, including file systems, backend services, workflow engines, security, etc.
+<br/>• Deep understanding of object-oriented design, programming concepts, data structures and common algorithms.
+<br/>• Experience in Unix environments."
+
+category: full-stack
+
+description: "This role will be heavily involved with expanding and enhancing our existing software infrastructure, as well as a lot of greenfield development building robust features for our core software platform.<br/>You will be part of a technical team that will design and develop backend infrastructure software to communicate across all layers, database stack, cloud and log analytics of the server and network communication, and security provisions necessary to scale the company’s AI platform.<br/>Your work will be highly visible throughout the company and will build the foundation for our go-to-market product. As one of the core members of the team, you will have direct input in building a roadmap to meet company milestones.<br/>You will be reporting directly to the CTO."
+
+---
