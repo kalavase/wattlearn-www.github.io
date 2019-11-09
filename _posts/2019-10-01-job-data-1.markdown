@@ -1,6 +1,6 @@
 ---
-title: Data Scientist
-subtitle: subtitle
+title: Senior Data Scientist
+subtitle: machine learning
 layout: default
 modal-id: 1
 date: 2019-10-01

@@ -5,12 +5,12 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>https://wattlearn-www.github.io/</link>
     <atom:link href="https://wattlearn-www.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 08 Nov 2019 10:34:23 -0600</pubDate>
-    <lastBuildDate>Fri, 08 Nov 2019 10:34:23 -0600</lastBuildDate>
+    <pubDate>Sat, 09 Nov 2019 09:55:57 -0600</pubDate>
+    <lastBuildDate>Sat, 09 Nov 2019 09:55:57 -0600</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>Data Scientist</title>
+        <title>Senior Data Scientist</title>
         <description>
 </description>
         <pubDate>Tue, 01 Oct 2019 00:00:00 -0500</pubDate>
@@ -23,7 +23,7 @@
       </item>
     
       <item>
-        <title>Developer</title>
+        <title>Software Engineer</title>
         <description>
 </description>
         <pubDate>Fri, 01 Oct 2010 00:00:00 -0500</pubDate>
