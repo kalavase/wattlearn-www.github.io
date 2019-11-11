@@ -216,9 +216,9 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     letter-spacing: 1px;
-    color: #fff;
+    color: #00b4e7;
     -webkit-transition: all ease .35s;
     -moz-transition: all ease .35s;
     transition: all ease .35s;
@@ -320,7 +320,7 @@ header .intro-text .intro-heading {
         font-family: "Helvetica Neue","Times New Roman",Helvetica,Arial,sans-serif;
         font-size: 30px;
         font-style: italic;
-        font-weight: 100;
+        font-weight: 150;
         line-height: 30px;
     }
 
@@ -545,10 +545,12 @@ section h3.section-subheading {
 .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit;
+    font-weight: 150;
 }
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
+    font-weight: 100;
 }
 
 .timeline .timeline-body>p,

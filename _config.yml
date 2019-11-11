@@ -2,7 +2,8 @@ url: https://wattlearn-www.github.io
 #baseurl: /agency-jekyll-theme/
 
 # Site settings
-title: Watt-Learn Homepage
+company: Watt-Learn
+title: Homepage
 email: info@wattlearn.com
 description: "Watt-Learn | Intelligent Batteries for Reliable and Profitable Grid. Watt-Learn offers revolutionary cloud-based AI software for battery installations. Our AI platform maximizes ROI and life of battery projects at different scale."
 

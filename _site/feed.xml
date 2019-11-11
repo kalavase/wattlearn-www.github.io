@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Watt-Learn Homepage</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <title>Homepage</title>
+    <description>Watt-Learn | Intelligent Batteries for Reliable and Profitable Grid. Watt-Learn offers revolutionary cloud-based AI software for battery installations. Our AI platform maximizes ROI and life of battery projects at different scale.</description>
     <link>https://wattlearn-www.github.io/</link>
     <atom:link href="https://wattlearn-www.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 10 Nov 2019 08:16:19 -0600</pubDate>
-    <lastBuildDate>Sun, 10 Nov 2019 08:16:19 -0600</lastBuildDate>
+    <pubDate>Mon, 11 Nov 2019 17:16:22 -0600</pubDate>
+    <lastBuildDate>Mon, 11 Nov 2019 17:16:22 -0600</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>

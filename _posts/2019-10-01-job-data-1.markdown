@@ -1,19 +1,18 @@
 ---
 title: Senior Data Scientist
-subtitle: machine learning
+subtitle: Machine Learning
 layout: default
 modal-id: 1
 date: 2019-10-01
-img: data_scientist.png
-thumbnail: data_scientist_thumbnail.png
+img: data_scientist_1.jpg
+thumbnail: data_scientist_1_thumbnail.jpg
 alt: image-alt
-project-date: Now
+project-date: "Now"
 category: Data Science
 general-reqs: "• An effective and motivated team player – We work as a team and grow as a team.
 <br/>• Self-driven, independent, and critical thinkers – There will be no daily todo list in this job.
 <br/>• Strong communication skills.
 <br/>• Experience in Energy Storage, Renewable Energy, Energy Efficiency, or Energy Industry in general is a strong plus."
-
 experience: "
 • Demonstrated hands-on 4+ years of experience in similar roles, developing production-level machine-learning and optimization algorithms and the supporting code-base.
 <br/>• Deep understanding of object-oriented design, programming concepts, data structures and common algorithms.
@@ -26,9 +25,8 @@ experience: "
 <br/>• Experience with databases such as Postgres, Cassandra, and query languages such as CQL and SQL, big data frameworks, Hadoop, etc. is a strong plus.
 <br/>• Experience with AWS cloud is a strong plus.
 <br/>• Familiarity with Unix and virtual environments." 
-
 description: "This role will be heavily involved with expanding and enhancing our existing AI-based platform, as well as a lot of greenfield development and building brand new and robust optimization and machine-learning algorithms and supporting code bases. 
-<br /><br />
+<br/><br/>
 Your work will include all levels of product lifecycle, from research and feasibility analysis all the way to data processing and data engineering, model development, debugging existing code base, framework development, testing and quality assurance, and production / post-production services.
 <br/>Your work will be highly visible throughout the company and will build the foundation for our go-to-market product. As one of the core members of the team, you will have direct input in building a roadmap to meet company milestones. You will be reporting directly to the CTO."
 
