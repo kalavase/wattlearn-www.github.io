@@ -12,7 +12,7 @@
                 <div class="col-sm-4">
                     <div class="team-member">
                         <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4>{{ member.name }}</h4>
+                        <h4 style="font-weight:150">{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
@@ -24,16 +24,10 @@
                             {% endfor %}
 
                         </ul>
+                        <p class="text-muted">{{ member.bio }}</p>
                     </div>
                 </div>
                 {% endfor %}
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Matineh has years of experience in building a variety of machine-learning software solutions that address open challenges in the energy space. Before Watt-Learn, she was the Director of Data Science at kWantera - an Energy Management company where she led development of the company’s AI platform for energy market intelligence. She completed her Ph.D. at Carnegie Mellon University, where she developed machine-learning algorithms for proactive diagnosis of energy systems.</p>
-                    <p class="large text-muted">Puneeth is cool.</p>
-                    <p class="large text-muted">Bo's background is in high energy physics working on recreating moments after the big bang using experiments at CERN. Shortly after, he tried his luck in the energy field as a embedded engineer at Stem Inc. to control behind the meter storage. Since, Bo has been a consultant for several enegy startups before landing softly at Watt-Learn. At Watt-Learn he is leading the development of our cloud-based software infrastructure.</p>
-                </div>
             </div>
         </div>
     </section>
