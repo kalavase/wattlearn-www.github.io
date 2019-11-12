@@ -9,3 +9,7 @@ TODO for Watt-Learn Homepage
 7) portfolio should be in bullet points.
 8) privacy policy needs to be filled or erased
 9) terms of use needs to be filled or erased
+10) upddate to handle small screens
+11) Website xml feed name is simply "homepage" needs to be updated
+12) update welcome tagline to something better
+13) color scheme correct?
