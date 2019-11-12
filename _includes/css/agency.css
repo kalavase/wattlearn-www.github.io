@@ -497,7 +497,7 @@ section h3.section-subheading {
     width: 80px;
     height: 80px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 7px solid #{{ site.data.template.color.secondary }};
     border-radius: 100%;
     text-align: center;
     color: #fff;
@@ -637,6 +637,11 @@ section h3.section-subheading {
     }
 }
 
+.career img {
+    margin: 0 auto;
+    border: 7px solid #{{ site.data.template.color.secondary }};
+}
+
 .team-member {
     margin-bottom: 50px;
     text-align: center;
@@ -644,7 +649,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
+    border: 7px solid #{{ site.data.template.color.secondary }};
 }
 
 .team-member h4 {
