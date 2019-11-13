@@ -288,7 +288,7 @@ header .intro-text .intro-lead-in {
     font-family: {{ site.data.template.font.secondary }};
     font-size: 20px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 200;
     line-height: 20px;
 }
 
@@ -303,7 +303,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 200px;
     }
 
@@ -312,7 +312,7 @@ header .intro-text .intro-heading {
         font-family: {{ site.data.template.font.secondary }};
         font-size: 30px;
         font-style: italic;
-        font-weight: 150;
+        font-weight: 200;
         line-height: 30px;
     }
 

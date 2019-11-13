@@ -4,20 +4,12 @@ url: https://wattlearn-www.github.io
 # Site settings
 company: Watt-Learn
 title: Homepage
-email: info@wattlearn.com
+email: meybpoosh@wattlearn.com
 description: "Watt-Learn | Intelligent Batteries for Reliable and Profitable Grid. Watt-Learn offers revolutionary cloud-based AI software for battery installations. Our AI platform maximizes ROI and life of battery projects at different scale."
 
 
 # Team names, titles and social links
 people:
-- name: Matineh Eybpoosh, Ph.D.
-  pic: 1
-  position: CEO, Co-founder
-  social:
-    - title: linkedin
-      url: https://www.linkedin.com/in/matineh-eybpoosh-647b5134
-  bio: Matineh has years of experience in building a variety of machine-learning software solutions that address open challenges in the energy space. Before Watt-Learn, she was the Director of Data Science at kWantera - an Energy Management company where she led development of the company’s AI platform for energy market intelligence. She completed her Ph.D. at Carnegie Mellon University, where she developed machine-learning algorithms for proactive diagnosis of energy systems.
-
 - name: Puneeth Kalavase, Ph.D.
   pic: 2
   position: Lead Data Scientist
@@ -25,6 +17,14 @@ people:
     - title: linkedin
       url: https://www.linkedin.com/puneeth-kalavase-0a378532
   bio: Puneeth is a clean-energy professional with demonstrated experience using software and data analysis in the service or reducing carbon emissions. Prior to Watt-Learn, Puneeth led the data science team at Stem, an early behind-the-meter energy storage provider. Before that, he was at Plotwatt, an energy efficiency analytics company. Before entering industry, Puneeth was a postdoctoral researcher at the Lawrence Berkeley National Laboratory where he analyzed the impact of global appliance efficiency standards. Puneeth completed his Ph.D in Experimental High Energy Physics at UC Santa Barbara.
+
+- name: Matineh Eybpoosh, Ph.D.
+  pic: 1
+  position: CEO, Co-founder
+  social:
+    - title: linkedin
+      url: https://www.linkedin.com/in/matineh-eybpoosh-647b5134
+  bio: Matineh has years of experience and demonstrated leadership  in building a variety of machine-learning software solutions for monitoring and controlling energy systems, as well as optimal energy market participation. Her passion is to improve the reliability, efficiency, and accessibility of clean energy across the world. Before Watt-Learn, she was the Director of Data Science at kWantera - an Energy Management company where she led the development of the company’s AI platform for energy market intelligence. She completed her Ph.D. at Carnegie Mellon University, where she developed machine-learning algorithms for proactive diagnosis of energy systems.
 
 - name: Bo Olsen
   pic: 3
