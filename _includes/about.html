@@ -3,46 +3,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted"></h3>  
+                    <h2 class="section-heading">{{ site.about.title }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.about.subtitle }}</h3>  
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        <li>
+                        {% for tl in site.about.timelines%}
+                        <li class="{{ tl.class }}">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/about/{{ tl.pic }}.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Where it all started</h4>
-                                    <h4 class="subheading">2016</h4>
+                                    <h4>{{ tl.heading }}</h4>
+                                    <h4 class="subheading">{{ tl.subheading }}</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Watt-Learn is a startup raised from Pittsburgh, <a href="https://www.cmu.edu">Carnegie Mellon University</a> (CMU). The founders, <a href="https://www.linkedin.com/in/julianlamy/"> Julian Lamy</a> and <a href="https://www.linkedin.com/in/matineh-eybpoosh-647b5134">Matineh Eybpoosh</a>, have decades of combined experience in tackling some of the most challenging problems in energy space. In 2016, through his studies of energy storage markets, Julian realises that one very important factor is missing for batteries: intelligence. Current batteries are simply too dumb to be profitable. Combining their multidisciplinary background, Julian and Matineh form a unique solution to address this very issue.<br/><br/>Watt-Learn founders have their signature on many state-of-the-art solutions and products that have found market success in the industry. Their experience ranges from applying AI and optimization for optimal operation of energy systems, different power markets, development and operation of energy storage and renewable projects, as well as data-driven diagnosis of energy systems.</p>
+                                    <p class="text-muted">{{ tl.text }}</p>
                                 </div>
                             </div>
                         </li>
+                        {% endfor %}
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Our Journey</h4>
-                                    <h4 class="subheading"></h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Watt-Learn have been part of <a href="https://alphalab.org/companies/watt-learn/">AlphaLab accelerator</a>, as well as <a href="https://www.plugandplaytechcenter.com/resources/meet-winners-summer-summit-2018/">Plug & Play</a>, where it won the People’s Choice Award as the best energy startup. Watt-Learn was invited to present at Energy Storage Summit held by Green Tech Media in 2017, was a finalist startup presenter at VERGE conference, and has won the first place at TransTech Energy Business Development Competition at <a href="https://www.cmu.edu">Carnegie Mellon University</a>, to name a few.<br/><br/>Watt-Learn joined forces with one of the leader energy investment companies in the country. Thanks to this partnership, Watt-Learn’s software will be operating a large pipeline of front-of-the-meter projects across the US to maximize the ROI for the shareholders.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
+                                <h4>
+                                    <a class="page-scroll" href="#portfolio" style="color:white">
+                                    Be Part
                                     <br>Of Our 
-                                    <br>Story!</h4>
+                                    <br>Story!</a></h4>
                             </div>
                         </li>
                     </ul>

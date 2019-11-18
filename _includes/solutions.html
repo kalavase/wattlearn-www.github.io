@@ -3,62 +3,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Solutions</h2>
-                    <h3 class="section-subheading text-muted">As a result of a recent partnerships, availability of any of the following offerings is determined on case-by-case basis. Please don’t hesitate to reach out if you are interested in any of ur solutions.</h3>
+                    <h2 class="section-heading">{{ site.solutions.title }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.solutions.subtitle }}</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <ul class="timeline">
-                        <li>
+                        {% for sol in site.solutions.timelines %}
+                        <li class="{{ sol.class }}">
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/solutions/1.jpg" alt="">
+                                <img class="img-circle img-responsive" src="img/solutions/{{ sol.pic }}.jpg" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>Proactive Lifetime-Aware Automation System (PLAAS)</h4>
-                                    <h4 class="subheading">existing and future projects</h4>
+                                    <h4>{{ sol.heading }}</h4>
+                                    <h4 class="subheading">{{ sol.subheading }}</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">PLAAS is here to maximize the value of your battery project. PLAAS serves as an intelligence layer on top of the existing battery control system. It sends proactive setpoints to your battery’s management system to maximize a customized set of objectives for your very specific project (e.g., revenue/ savings, number of cycles, lifetime, carbon footprint, etc. or a combination of all). Our solution is non-intrusive, technology agnostic, and cloud-based.</p>
+                                    <p class="text-muted">{{ sol.text }}</p>
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/solutions/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Real-time Recommendations</h4>
-                                    <h4 class="subheading">existing projects</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">If you feel that PLAAS is a right solution for your project (either because the results from the Battery Performance Audit is suggesting so, or because you believe in science!), but still prefer to have the control of your battery’s operation in your own hands, then this solution is for you. You will receive a forward-looking dispatch setpoints, on realtime basis, which act as recommendations that can be either incorporated into the battery control system, or used to shadow the existing strategies.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/solutions/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Battery Performance Audit</h4>
-                                    <h4 class="subheading">existing projects</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">If you wonder what our PLAAS solution can do and what the size of unrealized opportunity is for your project, this is a service you would benefit from. We will work closely with you to customize our PLAAS solution to your project’s specifications and needs. We will go back in time and simulate the operation of your project using PLAAS with different configurations to demonstrate the value that could have been generated for your project in variety of scenarios (e.g., revenue/ saving, lifetime, cycles, etc.).</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
+                        {% endfor %}
+                        <!--<li class="timeline-inverted"<>
                             <div class="timeline-image">
                                 <h4>Stay Tuned
                                     <br>for New
                                     <br>Solutions!</h4>
                             </div>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
             </div>
