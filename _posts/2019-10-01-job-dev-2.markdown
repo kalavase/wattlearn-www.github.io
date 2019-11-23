@@ -1,29 +1,30 @@
 ---
 title: Software Engineer
-subtitle: Full-Stack
+subtitle: Near-Full-Stack
 layout: default
 modal-id: 2
 date: 2010-10-01
 img: programmer.jpg
 thumbnail: programmer_thumbnail.jpg
 alt: image-alt
-category: full-stack
+category: near-full-stack
 project-date: Now
 
 description: 
   title: Description
   text: "
   Using new technologies available in the cloud, WattLean is buildng a robust data-driven state-less AI platform, which can also be run locally.
-  Wattlearn has taken care to employ industry best practices to our dev-ops along with the appropriate ammount of development process to drive ahead production quality code from the get-go.
+  Wattlearn has taken care to employ industry best practices to our dev-ops, along with the appropriate ammount of development process to drive production quality code from the get-go.
   Wattlearn is a python shop due to the tight coupling with data-science, yet other bare-metal languanges will be used for enhancing speed.
   Wattlearn's highlevel technology stack is: terraform to manage the cloud, bitbucket pipelines to manage CI/CD, serverless lambdas for quick processing and containers for longer running processes.
   We are looking for a driven and talented software developer who can aid in the above mentioned stack. 
   In addition, one who is well adapted at greenfield development and optimizing code
-  On a personal leve, one who thrives in a small team atmosphere and is eager to contribute to building a sustainable energy future.
+  On a personal note, one who thrives in a small team atmosphere and is eager to contribute to building a sustainable energy future.
   You will be part of a technical team that will design and develop backend infrastructure software to communicate across all layers, database stack, cloud and log analytics of the server and network communication, and security provisions necessary to scale the company’s AI platform.
-  On the job learning of new technologies.
+  Expectation to learn new technologies on the job.
   Creative solutions are welcome.
-  Your work will be highly visible throughout the company and will build the foundation for our go-to-market product. As one of the core members of the team, you will have direct input in building a roadmap to meet company milestones.
+  Your work will be highly visible throughout the company and will build the foundation for our go-to-market product. 
+  As one of the core members of the team, you will have direct input in building a roadmap to meet company milestones.
   You will be reporting directly to the CTO."
 
 general-reqs: 
@@ -42,11 +43,11 @@ experience:
     - para: Experience with deploying, monitoring, and building robust fault tolerant architectures (familiarity with AWS cloud is a plus).
     - para: Experience with high data volumes and transaction rates with asynchronous workloads.
     - para: Experience with CI/CD.
-    - para: Python (knowlege of C++ is a plus).
+    - para: Python (knowledge of C++ is a plus).
     - para: Experience in Unix environments.
 nice-to-have: 
   title: Nice to Have
   text:
     - para: Experience in security.
-    - para: Familiarity with modern front-end web frameworks .
+    - para: Familiarity with modern front-end web frameworks.
 ---
