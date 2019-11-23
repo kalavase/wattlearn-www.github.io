@@ -16,19 +16,32 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <ul class="list-group item-details text-left">
-                                <li>
-                                    Role:
-                                    <p>{{ post.description }}</p>
+                                <li>{{ post.description.title }}:
+                                    <p class="text-muted">{{ post.description.text }}</p>
                                 </li>
-                                <li>
+                                <!--<li>
                                     Available: <strong>{{ post.project-date }}<br/><br/></strong>
+                                </li>-->
+                                <li>{{ post.general-reqs.title }}:
+                                    <ul class="text-muted" style="font-size:14px;line-height:1.75;">
+                                        {% for req in post.general-reqs.text %}
+                                            <li>{{ req.para }}</li>
+                                        {% endfor %}
+                                    </ul>
                                 </li>
-                                <li>
-                                    General Requirements:
-                                    <p>{{ post.general-reqs }}</p>
+                                <li>{{ post.experience.title }}:
+                                    <ul class="text-muted" style="font-size:14px;line-height:1.75;">
+                                        {% for exp in post.experience.text %}
+                                            <li>{{ exp.para }}</li>
+                                        {% endfor %}
+                                    </ul>
                                 </li>
-                                <li>Experience and Knowledge:
-                                    <p>{{ post.experience }}</p>
+                                <li>{{ post.nice-to-have.title }}:
+                                    <ul class="text-muted" style="font-size:14px;line-height:1.75;">
+                                        {% for nice in post.nice-to-have.text %}
+                                            <li>{{ nice.para }}</li>
+                                        {% endfor %}
+                                    </ul>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>

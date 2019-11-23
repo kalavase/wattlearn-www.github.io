@@ -9,25 +9,39 @@ thumbnail: data_scientist_1_thumbnail.jpg
 alt: image-alt
 project-date: "Now"
 category: Data Science
-general-reqs: "• An effective and motivated team player – We work as a team and grow as a team.
-<br/>• Self-driven, independent, and critical thinkers – There will be no daily todo list in this job.
-<br/>• Strong communication skills.
-<br/>• Experience in Energy Storage, Renewable Energy, Energy Efficiency, or Energy Industry in general is a strong plus."
-experience: "
-• Demonstrated hands-on 4+ years of experience in similar roles, developing production-level machine-learning and optimization algorithms and the supporting code-base.
-<br/>• Deep understanding of object-oriented design, programming concepts, data structures and common algorithms.
-<br/>• Python proficiency is a must.  
-<br/>• Experience with Python Pandas, and time-series modeling.
-<br/>• Proficiency in developing high performing machine-learning models with time-series data.
-<br/>• Proficiency in developing high performing linear and non-linear optimization algorithms for complex problems (familiarity with model predictive control is a strong plus).
-<br/>• Experience with collaborative working through Github, pull-requests, version controls, etc.  
-<br/>• Demonstrated ability to design and develop high quality, highly scalable code with a focus on machine-learning, optimization, and other data science functions.
-<br/>• Experience with databases such as Postgres, Cassandra, and query languages such as CQL and SQL, big data frameworks, Hadoop, etc. is a strong plus.
-<br/>• Experience with AWS cloud is a strong plus.
-<br/>• Familiarity with Unix and virtual environments." 
-description: "This role will be heavily involved with expanding and enhancing our existing AI-based platform, as well as a lot of greenfield development and building brand new and robust optimization and machine-learning algorithms and supporting code bases. 
-<br/><br/>
-Your work will include all levels of product lifecycle, from research and feasibility analysis all the way to data processing and data engineering, model development, debugging existing code base, framework development, testing and quality assurance, and production / post-production services.
-<br/>Your work will be highly visible throughout the company and will build the foundation for our go-to-market product. As one of the core members of the team, you will have direct input in building a roadmap to meet company milestones. You will be reporting directly to the CTO."
 
+description: 
+  title: Description
+  text: "Using machine learning and optimization algorithms, WattLearn’s Proactive Lifetime-Aware Automation System (PLAAS) continuously determines the optimal strategy for controlling grid-scale energy storage devices. We are looking for a driven and talented Senior Data Scientist to improve these algorithms as well as build new capabilities as we expand into new markets and value streams. As a key member of a small but experienced team, you will play an integral role in shaping the future of both the data science team and the company itself while also contributing to a more sustainable energy future. 
+While your focus will be on Data Science, you will will have input into all parts of the product life cycle: research and ad hoc analyses, data processing and engineering, model development, testing and quality assurance, and even operations. 
+Your work will be highly visible throughout the company and will contribute to the foundation for our go-to-market product. As one of the core members of the team, you will have direct input in building a roadmap to meet company milestones. The person who fills this role will report directly to the CEO."
+
+general-reqs:  
+  title: General-Requirements
+  text:  
+    - para: Effective and motivated team player – We work as a team and grow as a team.
+    - para: Self-driven, independent, and critical thinker.
+    - para: Detail oriented.
+    - para: Strong communication skills.
+    - para: Experience and/or demonstrated interest in energy storage, renewable energy, energy efficiency, energy trading or the energy industry in general is a strong plus.
+
+experience:   
+  title: Experience and Knowledge
+  text: 
+    - para: Demonstrated experience (4+ years) developing production-level machine-learning and optimization algorithms.
+    - para: Deep understanding of object-oriented design, programming concepts, data structures and common algorithms, and a passion for writing clean, efficient, readable and resilient code.
+    - para: Excellent knowledge of Python, especially the scientific stack (numpy, pandas, sklearn, sklearn, etc.).
+    - para: Must have experience with software development best practices, such as unit and integration testing, version control, code reviews, etc.
+    - para: Demonstrated excellence  in developing and deploying scalable, high performing machine-learning models, with a focus on  time-series analysis and forecasting.
+    - para: Demonstrated excellence in developing and deploying high performance  linear and non-linear optimization algorithms for solving complex problems.
+    - para: Experience working with relational databases. Working knowledge of SQL preferred.
+    - para: Comfortable working in the Linux environment.
+
+nice-to-have:   
+  title: Nice to Have
+  text: 
+    - para: Familiarity with model predictive control.
+    - para: Familiar with AWS cloud services (S3, RDS, Lambdas, etc.).
+    - para: Familiar with PostGres.
+    - para: Familiar of energy market operations.
 ---
