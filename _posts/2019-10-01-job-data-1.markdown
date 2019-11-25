@@ -43,5 +43,5 @@ nice-to-have:
     - para: Familiarity with model predictive control.
     - para: Familiar with AWS cloud services (S3, RDS, Lambdas, etc.).
     - para: Familiar with PostGres.
-    - para: Familiar of energy market operations.
+    - para: Familiar with energy market operations.
 ---
